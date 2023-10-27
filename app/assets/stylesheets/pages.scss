@@ -1,0 +1,8 @@
+.btn-primary {
+    background-color: #4CAF50; // Un color de fondo verde
+    border: none;
+    &:hover {
+      background-color: #45a049; // Un color de fondo verde más oscuro cuando pasas el mouse por encima
+    }
+  }
+  

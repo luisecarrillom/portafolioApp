@@ -1,0 +1,14 @@
+<div class="row">
+  <% 3.times do |i| %>
+    <div class="col-md-4">
+      <div class="card">
+        <%= image_tag("projects/project_#{i + 1}.jpg", class: 'card-img-top', alt: "Proyecto #{i + 1}") %>
+        <div class="card-body">
+          <h5 class="card-title">Nombre del Proyecto <%= i + 1 %></h5>
+          <p class="card-text">Descripción del proyecto.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
